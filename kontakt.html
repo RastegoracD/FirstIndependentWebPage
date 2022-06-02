@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Frizerski salon X Kontakt</title>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+    </head>
+    <body>
+        <div id="MainBody">
+            <div id="Header-body">
+                <div id="Header-logo">
+                    <img src="Images/logo.jpg">
+                </div>
+                <div id="Header-menu">
+                    <ul>
+                        <li><a href="index.html">Početna</a></li>
+                        <li><a href="galerija.html">Galerija</a></li>
+                        <li><a href="usluge.html">Usluge</a></li>
+                        <li class="curent"><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div style="clear: bouth;"></div>
+            </div>
+            <div id="telefon">
+                <div id="telefonlogo"><img src="Logo/telefonlogo2.png"></div>
+                <div id="telefontext"><h2>Javite nam se na nas broj - 099 435 4986</h2></div>
+            </div>
+            <div style="clear: bouth;"></div>
+            <div class="contact-box">
+                <div class="fcf-body">
+                    <div id="fcf-form">
+                    <h3 class="fcf-h3">Kontaktirajte nas putem nasega emaila:salonX@mail.com</h3>
+                    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                        <div class="fcf-form-group">
+                            <label for="Name" class="fcf-label">Vase ime i prezime</label>
+                            <div class="fcf-input-group">
+                                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                            </div>
+                        </div>
+                        <div class="fcf-form-group">
+                            <label for="Email" class="fcf-label">Vasa email adresa</label>
+                            <div class="fcf-input-group">
+                                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                            </div>
+                        </div>
+                        <div class="fcf-form-group">
+                            <label for="Message" class="fcf-label">Vasa poruka</label>
+                            <div class="fcf-input-group">
+                                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                            </div>
+                        </div>
+                        <div class="fcf-form-group">
+                            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div id="footerbody">
+                <div id="radnovrijeme">
+                    <ul>
+                        <li>Radno vrijeme</li>
+                        <li>Pon: 08:00-20:00</li>
+                        <li>Uto: 08:00-20:00</li>
+                        <li>Sri: 08:00-20:00</li>
+                        <li>Cet: 08:00-20:00</li>
+                        <li>Pet: 08:00-20:00</li>
+                        <li>Sub: 08:00-14:00</li>
+                        <li>Ned: Ne radimo.</li>
+                    </ul>
+                </div>
+                <div id="kontakt">
+                    <p>Broj telefona:099 435 4986</p>
+                    <p>Email:salonX@mail.com</p>
+                </div>
+                <div id="googleMap">
+                <div style="overflow:hidden;max-width:100%;width:20rem;height:10rem;padding-top: 2rem;"><div id="googlemaps-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Croatia,+zagreb&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlemaps-html" href="https://www.embed-map.com" id="enable-mapdata">https://www.embed-map.com</a><style>#googlemaps-canvas img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+                </div>  
+            </div>
+        </div>
+    </body>
+</html>
